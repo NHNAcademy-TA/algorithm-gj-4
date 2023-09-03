@@ -16,6 +16,6 @@ class MainTest {
     @MethodSource("testcases")
     @DisplayName("[1] 대문자 ↔️ 소문자 변환")
     void test(String input, String answer) {
-        assertEquals(Main.solution(input), answer);
+        Assertions.assertEquals(Main.solution(input), answer);
     }
 }
