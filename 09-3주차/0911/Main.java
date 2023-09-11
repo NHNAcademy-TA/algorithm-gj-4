@@ -24,7 +24,7 @@ public class Main {
 
     public static void main(String[] args) {
         for (int i = 0; i < TEST_CASES.length; i++) {
-            System.out.println("Test Case " + (i + 1) + " = " + test(TEST_CASES[i], Test_CASES_RESULT[i]));
+            System.out.println("Test Case " + (i + 1) + " = " + test(TEST_CASES[i], TEST_CASES_RESULT[i]));
         }
 
         System.out.printf("정답률 = %.3f%%", (correct / TEST_CASES.length * 100));
